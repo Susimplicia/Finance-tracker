@@ -14,7 +14,6 @@ It allows users to manage income and expenses, visualize financial data, and per
 ## 📸 Preview
 
 ![App Screenshot](./screenshot.png)
-
 ---
 
 ## ✨ Features
