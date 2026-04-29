@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 20px;
+  width: 380px;
+  border-radius: 10px;
+}
+
+/* Botão tema */
+#toggle-theme {
+  float: right;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Summary */
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  background: #eee;
+  padding: 8px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.plus {
+  border-left: 5px solid green;
+}
+
+li.minus {
+  border-left: 5px solid red;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #1e1e2f;
+}
+
+body.dark .container {
+  background: #2c2c3e;
+  color: white;
+}
+
+body.dark input {
+  background: #444;
+  color: white;
+}
+
+body.dark .summary {
+  background: #3a3a50;
+}
